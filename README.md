@@ -4,7 +4,7 @@
 
 This project analyzes bike-sharing data using **SQL, Excel, and Power BI**. The following SQL query extracts key insights, including revenue and profit calculations.
 ### **📌 SQL Query Used (MS SQL Server)**
-*.sql linguist-language=SQL
+```tsql 
 with cte as (
 select *  from  bike_share_yr_0
 Union all
