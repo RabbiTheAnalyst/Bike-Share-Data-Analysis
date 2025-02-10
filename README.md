@@ -24,3 +24,4 @@ SELECT
 FROM cte a 
 LEFT JOIN cost_table b 
 ON a.yr = b.yr;
+
