@@ -1,4 +1,7 @@
 ![SQL](https://img.shields.io/badge/language-SQL-brightgreen)
+## 🚴‍♂️ Bike Share Data Analysis  
+
+This project analyzes bike-sharing data using **SQL, Excel, and Power BI**. The following SQL query extracts key insights, including revenue and profit calculations.
 ### **📌 SQL Query Used (MS SQL Server)**
 ```tsql
 WITH cte AS (
