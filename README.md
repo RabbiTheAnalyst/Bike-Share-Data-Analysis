@@ -31,6 +31,5 @@ ON a.yr = b.yr;
 🔍 Used CTE (Common Table Expression) to merge yearly data efficiently.
 
 📌 Want to see the full analysis? Check out the dataset and Power BI visualization! 🚀
-
-👤 Created by Md Rabbi Ali
-📧 Contact: rabbi.stat.iu@gmail.com
+---
+🚀 Created by **Md Rabbi Ali** | 📧 rabbi.stat.iu@gmail.com
