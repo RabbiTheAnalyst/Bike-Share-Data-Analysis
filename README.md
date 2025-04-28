@@ -57,4 +57,3 @@ FROM combined_years c
 LEFT JOIN cost_table ct ON c.yr = ct.yr
 GROUP BY FORMAT(dteday, 'yyyy-MM'), rider_type
 ORDER BY month, profit_margin DESC;
-ai code er nice onno kono code likhele seita sothik vabe sow korechena solve it
