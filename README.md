@@ -39,6 +39,12 @@ The objective was to derive actionable insights, understand customer behavior, a
 
 ## 🔍 Core SQL Analysis
 
+
+---
+
+## 🔍 Core SQL Analysis
+
+```sql
 -- Bike Share Profitability Analysis (MS SQL Server)
 WITH combined_years AS (
   SELECT * FROM bike_share_yr_0
@@ -57,4 +63,3 @@ FROM combined_years c
 LEFT JOIN cost_table ct ON c.yr = ct.yr
 GROUP BY FORMAT(dteday, 'yyyy-MM'), rider_type
 ORDER BY month, profit_margin DESC;
-
