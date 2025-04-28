@@ -34,6 +34,28 @@ The objective was to derive actionable insights, understand customer behavior, a
 
 ---
 
-## 🗂️ Project Structure  
-Bike-Share-Data-Analysis/ │ ├── data/ │ └── Raw_Bike_Share_Data.csv │ ├── sql_scripts/ │ └── profitability_analysis.sql │ ├── excel_files/ │ └── cleaned_bike_data.xlsx │ ├── powerbi_dashboards/ │ └── bike_share_dashboard.pbix │ └── README.md
+
+---
+
+## 🔍 Core SQL Analysis
+
+```sql
+-- Bike Share Profitability Analysis (MS SQL Server)
+WITH combined_years AS (
+  SELECT * FROM bike_share_yr_0
+  UNION ALL
+  SELECT * FROM bike_share_yr_1
+)
+
+SELECT 
+  FORMAT(dteday, 'yyyy-MM') AS month,
+  rider_type,
+  COUNT(riders) AS total_rides,
+  SUM(price) AS total_revenue,
+  SUM(price * riders) - SUM(COGS) AS net_profit,
+  ROUND((SUM(price * riders) - SUM(COGS)) / SUM(price * riders), 2) * 100 AS profit_margin
+FROM combined_years c
+LEFT JOIN cost_table ct ON c.yr = ct.yr
+GROUP BY FORMAT(dteday, 'yyyy-MM'), rider_type
+ORDER BY month, profit_margin DESC;
 
