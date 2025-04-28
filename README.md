@@ -1,6 +1,6 @@
 ## 🚴‍♂️ Bike Share Data Analysis Project
 
-<div align="center">
+<div align="left">
   
 **Tech Stack**  
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
