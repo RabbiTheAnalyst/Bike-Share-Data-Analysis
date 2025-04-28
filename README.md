@@ -1,6 +1,6 @@
 # 🚴‍♂️ Bike Share Data Analysis Project
 
-<div align="center">
+<div align="left">
 
 ![SQL](https://img.shields.io/badge/SQL-Data_Analysis-blue?style=for-the-badge&logo=databricks&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-Data_Cleaning-green?style=for-the-badge&logo=microsoft-excel&logoColor=white)
