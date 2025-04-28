@@ -34,7 +34,7 @@ The objective was to derive actionable insights, understand customer behavior, a
 
 ---
 ## 📊 Power BI Visualization
-<div align="center"> <img src="https://raw.githubusercontent.com/yourusername/your-repo/main/images/bike_dashboard.png" width="900" alt="Bike Share Dashboard"> <p><em>Interactive dashboard showing ridership patterns and profitability metrics</em></p> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/RabbiTheAnalyst/your-repo/main/images/Screenshot 2024-12-13 164007.png" width="900" alt="Bike Share Dashboard"> <p><em>Interactive dashboard showing ridership patterns and profitability metrics</em></p> </div>
 
 ## 🔍 Core SQL Analysis
 
