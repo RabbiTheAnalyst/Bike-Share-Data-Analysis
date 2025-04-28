@@ -33,6 +33,8 @@ The objective was to derive actionable insights, understand customer behavior, a
 - Build a dynamic dashboard for better storytelling
 
 ---
+## 📊 Power BI Visualization
+<div align="center"> <img src="https://raw.githubusercontent.com/yourusername/your-repo/main/images/bike_dashboard.png" width="900" alt="Bike Share Dashboard"> <p><em>Interactive dashboard showing ridership patterns and profitability metrics</em></p> </div>
 
 ## 🔍 Core SQL Analysis
 
