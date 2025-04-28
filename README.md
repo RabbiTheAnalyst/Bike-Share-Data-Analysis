@@ -34,5 +34,6 @@ The objective was to derive actionable insights, understand customer behavior, a
 
 ---
 
-## 🗂️ Project Structure
+## 🗂️ Project Structure  
+Bike-Share-Data-Analysis/ │ ├── data/ │ └── Raw_Bike_Share_Data.csv │ ├── sql_scripts/ │ └── profitability_analysis.sql │ ├── excel_files/ │ └── cleaned_bike_data.xlsx │ ├── powerbi_dashboards/ │ └── bike_share_dashboard.pbix │ └── README.md
 
